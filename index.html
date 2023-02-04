@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>lesson4</title>
+</head>
+<body>
+    <h1>CATS-TABS</h1>
+    <div class="tabs-block-wrapper">
+        <div id="tabs">
+            <div class="tab-btn active" data-btn="1">1</div>
+            <div class="tab-btn" data-btn="2">2</div>
+            <div class="tab-btn" data-btn="3">3</div>
+        </div>
+        <div id="contents">
+            <div class="content active" data-content="1">
+                <img src="img/cat1.jpg" alt="cat again" class="image">
+            </div>
+            <div class="content" data-content="2">
+                <img src="img/cat2.jpg" alt="cat again" class="image" height="400">
+            </div>
+            <div class="content" data-content="3">
+                <div id="inside-tabs">
+                    <div class="inside-btn active" data-inside-btn="1">1</div>
+                    <div class="inside-btn" data-inside-btn="2">2</div>
+                </div>
+                <div id="inside-contents">
+                    <div class="inside-content active" data-inside-content="1">
+                        <img src="img/cat (1).jpg" alt="кот" class="image1">
+                    </div>
+                    <div class="inside-content" data-inside-content="2">
+                        <img src="img/cat (2).jpg" alt="еще кот" class="image1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
